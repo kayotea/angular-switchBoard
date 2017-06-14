@@ -6,7 +6,7 @@
       <h1>
         Switchboard
       </h1>
-      <button *ngFor='let idx of indeces' class="{{board[idx]}}" (click)='switch(idx)'>
+      <button *ngFor='let button of board; let idx=index' class="{{board[idx]}}" (click)='switch(idx)'>
         <p>{{board[idx]}}</p>
       </button>
     </div>

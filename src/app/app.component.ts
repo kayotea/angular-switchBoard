@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  indeces = [0, 1, 2, 3, 4, 5, 6, 7];
   board = ['off', 'off', 'off', 'off', 'off', 'off', 'off', 'off'];
   switch(idx){
     for (var i = 0; i < this.board.length; i++){
