@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <div style="text-align:center">
+      <h1>
+        Switchboard
+      </h1>
+      <button *ngFor='let idx of indeces' class="{{board[idx]}}" (click)='switch(idx)'>
+        <p>{{board[idx]}}</p>
+      </button>
+    </div>
+  </body>
+</html>
